@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Intermediate Exercise: Light & Dark</title>
+
+	<style type="text/css" media="screen">
+
+		#box1 {
+			background: blue;
+			height: 100px;
+			width: 100px;
+			transition: 5s ease-out;
+			box-shadow: 5px 10px black;
+			text-align: center;
+			color: white;
+			
+		}
+
+		#box1:hover {
+			height: 200px;
+			width: 200px;
+			box-shadow: 10px 15px red;
+			text-shadow: 10px 2px black;
+		}
+
+		
+		#box2 {
+			background: red;
+			height: 200px;
+			width: 200px;
+			transition: 3s;
+		}
+		
+		#box2:hover {
+			transform: rotate3d(1, 2, 3, 360deg);
+		}
+
+
+		#box3 {
+			background: yellow;
+			height: 250px;
+			width: 200px;
+			transition: 1s;
+		}
+
+		#box3:hover {
+			transform: scale(2);
+		}
+
+		#box4 {
+			transition: 3s;
+		}
+		
+		#box4:hover {
+			transform: translate(100px, 1000px)
+		}
+
+		#box5 {
+			background: green;
+			height: 50px;
+			width: 300px;
+			transition: 5s;
+		}
+
+		#box5:hover {
+			transform: skewX(90deg);
+		}
+
+	</style>
+</head>
+
+<body>
+	
+<h1>Light & Dark</h1>
+
+<div id="box1">
+	<p>Lorem ipsum dolor sit amet.</p>
+</div> 
+
+<div id="box2">
+	<p>Lorem ipsum dolor sit amet.</p>
+</div>
+
+<div id="box3">
+	<p>Lorem ipsum dolor sit amet.</p>
+</div>
+
+<div id="box4">
+	<img src="https://cdn.pixabay.com/photo/2016/11/21/14/47/adorable-1845789__340.jpg" alt="cute kitty">
+</div>
+
+<div id="box5">
+	<p>Lorem ipsum dolor sit amet.</p>
+</div>
+
+
+</body>
+</html>
