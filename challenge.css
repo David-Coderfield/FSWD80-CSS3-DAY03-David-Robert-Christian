@@ -1,0 +1,110 @@
+
+* {
+	margin: 0;
+	font-family: Verdana, sans-serif;
+}
+
+body {
+	padding: 15px;
+}
+
+nav {
+	background: green;
+	width: 100%;
+	display: inline-block;
+}
+
+.logo {
+	width: 400px;
+	display: block;
+	height: auto;
+	margin: 0 auto;
+}
+	
+nav ul {
+	list-style-type: none;
+
+}
+
+nav li {
+	float: left;
+	padding: 20px;
+}
+
+nav li:hover {
+	background: darkgreen;
+}
+
+nav li a {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 2em;
+
+}
+	
+.products {
+	margin: 66px 0px;
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+}
+
+@media screen and (max-width: 1060px) {
+	.products {
+			flex-flow: column;
+			align-items: center;
+	}
+}
+
+
+.pro {
+	width: 250px;
+	height: 250px;
+	border: 6px solid red;
+	border-radius: 20px;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	overflow: hidden;
+	vertical-align: bottom;
+	transition: 1s;
+}
+
+.pro:hover {
+	transform: scale(1.2, 1.2);
+	box-shadow: 10px -10px #f88
+}
+
+.products a {
+	text-decoration: none;
+	margin: 25px 0px;
+}
+
+.products a .pro {
+	margin: 0 4em;
+}
+
+.products a:nth-child(1) .pro {
+	background: url(https://previews.123rf.com/images/sunabesyou/sunabesyou1601/sunabesyou160100869/51221987-smiling-asian-man-with-money.jpg);
+	background-size: 100% 100%;
+}
+
+.products a:nth-child(2) .pro {
+	background: url(http://www.golegal.co.za/wp-content/uploads/2019/05/system.png);
+	background-size: auto 100%;
+}
+
+.products a:nth-child(3) .pro {
+	background: url(https://c8.alamy.com/comp/C38WG4/man-walking-looking-at-phone-C38WG4.jpg);
+	background-size: 100% auto;
+}
+
+.pro h2 {
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	background: rgba(0, 0, 0, 0.5);
+	margin-top: 20px;
+}
