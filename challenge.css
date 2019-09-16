@@ -40,7 +40,18 @@ nav li a {
 	text-decoration: none;
 	font-weight: bold;
 	font-size: 2em;
+}
 
+hr {
+	border: none;
+	height: 5px;
+	background: linear-gradient(to right, rgba(0,0,0,0), #666, rgba(0,0,0,0));
+	margin: 10px 0px 20px;
+}
+
+article * {
+	color: green;
+	margin-left: 20px;
 }
 	
 .products {
