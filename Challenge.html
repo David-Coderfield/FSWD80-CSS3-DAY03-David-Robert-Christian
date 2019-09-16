@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Challenge Exercise</title>
+
+	<style type="text/css" media="screen">
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+	main {
+		margin-bottom: 25px;
+	}
+
+	nav {
+		background: green;
+		width: 100%;
+		display: inline-block;
+	}
+
+	.logo {
+		margin: 0 auto;
+	}
+		
+	nav ul {
+		list-style-type: none;
+
+	}
+
+	nav li {
+		float: left;
+		padding: 20px;
+	}
+
+	nav li a {
+		color: white;
+		text-decoration: none;
+		font-weight: bold;
+
+	}
+		
+	.products {
+		display: flex;
+		flex-flow: row;
+		justify-content: center;
+	}
+
+
+		.pro {
+			width: 250px;
+			height: 250px;
+			border: 3px solid blue;
+			border-radius: 20px;
+			display: flex;
+			flex-flow: column;
+			align-items: center;
+			overflow: hidden;
+			vertical-align: bottom;
+			transition: 1s;
+		}
+
+		.pro:hover {
+			transform: scale(1.2, 1.2);
+			box-shadow: 10px -10px lightblue;
+		}
+
+		.products a {
+			text-decoration: none;
+		}
+
+		.products a .pro {
+			margin: 0 4em;
+		}
+
+		.products a:nth-child(1) .pro {
+			background: url(https://previews.123rf.com/images/sunabesyou/sunabesyou1601/sunabesyou160100869/51221987-smiling-asian-man-with-money.jpg);
+			background-size: 100% 100%;
+		}
+
+		.products a:nth-child(2) .pro {
+			background: url(http://www.golegal.co.za/wp-content/uploads/2019/05/system.png);
+			background-size: auto 100%;
+		}
+
+		.products a:nth-child(3) .pro {
+			background: url(https://c8.alamy.com/comp/C38WG4/man-walking-looking-at-phone-C38WG4.jpg);
+			background-size: 100% auto;
+		}
+
+		.pro h2 {
+			color: white;
+			font-weight: bold;
+			text-decoration: none;
+			background: rgba(0, 0, 0, 0.5);
+		}
+
+	</style>
+</head>
+<body>
+<header>	
+
+	<nav>
+		<ul>
+			<li><a href="">Home</a></li>
+			<li><a href="">My BlabSlab</a></li>
+			<li><a href="">About Us</a></li>
+			<li><a href="">Contact</a></li>
+		</ul>
+
+
+	</nav>
+
+
+</header>
+
+<img src="Logo.jpg" alt="Blabslab Logo" class="logo">
+
+<main>
+
+
+
+<h2>Who we are</h2>
+
+<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, eligendi.
+
+<h2>What we offer</h2>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, voluptatibus.</p>
+
+<hr>
+
+	<div class="products">
+
+	<a href="">
+		<div class="pro"> 
+			<h2>Pay as you go</h2>
+		</div>
+	</a>
+
+	<a href="">
+		<div class="pro">
+			<h2>Our Contracts</h2>			
+		</div>
+	</a>
+
+	<a href="">
+		<div class="pro">
+<!-- 			<img src="" alt="business man"> -->
+			<h2>Company Contracts</h2>			
+		</div>
+	</a>
+
+	</div>
+
+</main>
+	
+	<hr>
+
+	<footer>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, modi.
+	</footer>
+</body>
+</html>
